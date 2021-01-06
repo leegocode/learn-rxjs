@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add rxjs webpack webpack-dev-serve typescript ts-loader
+
+PATH: 
+  /Users/legu/.rvm/gems/ruby-2.7.0/bin:/Users/legu/.rvm/gems/ruby-2.7.0@global/bin:/Users/legu/.rvm/rubies/ruby-2.7.0/bin:/usr/local/opt/mysql@5.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/legu/.rvm/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  12.16.2
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/webpack-dev-serve: Not found
+      at Request.params.callback [as _callback] (/Users/legu/.config/yarn/global/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/legu/.config/yarn/global/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:310:20)
+      at Request.<anonymous> (/Users/legu/.config/yarn/global/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:310:20)
+      at IncomingMessage.<anonymous> (/Users/legu/.config/yarn/global/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:416:28)
+      at IncomingMessage.emit (events.js:322:22)
+      at endReadableNT (_stream_readable.js:1187:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "rxjs-learn",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
