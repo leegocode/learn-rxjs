@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "script": {
-    "start":"webpack-dev-server --mode development"
+  "scripts": {
+    "start": "webpack serve --mode development"
   },
   "dependencies": {
     "rxjs": "^6.6.3",
